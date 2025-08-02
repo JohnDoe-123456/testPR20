@@ -1,0 +1,41 @@
+* {
+    font-family: Arial, monospace, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, aquamarine, darkorange);
+}
+
+#changeText {
+    position: fixed;
+    margin-bottom: 600px;
+    font-size: 96px;
+    letter-spacing: 5px;
+    text-shadow: -4px -4px 4px #e4dbdb;
+    cursor: not-allowed;
+ }
+
+ #btnChangeText, #resetChangeText {
+    margin: 40px;
+    margin-top: 400px;
+    padding: 50px 50px;
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 3px;
+ }
+
+ #btnChangeText:hover, #resetChangeText:hover {
+    background-image: linear-gradient(to right, aquamarine, darkorange);
+    color: #fff;
+    text-shadow: -2px -3px 4px #0a0a0a;
+ }
+
+ #btnChangeText:active, #resetChangeText:active {
+    color: #0011;
+ }
